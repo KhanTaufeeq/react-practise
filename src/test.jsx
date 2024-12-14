@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-function MyButton() {
+function MyApp() {
+  const handleClick = () => {
+    alert('You clicked me!')
+  }
+
   return (
-    <button>I'm a button</button>
+    <button onClick={handleClick}>
+      Click me
+    </button>
   )
 }
 
-export default MyButton;
+export default MyApp;

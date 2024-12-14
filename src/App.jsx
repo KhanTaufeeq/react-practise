@@ -1,14 +1,11 @@
 import { useState } from 'react'
 import './App.css';
-import MyButton from './test';
+import MyApp from './test';
 
 function App() {
   return (
     <>
-      <div>
-        <h1>Welcome to my app</h1>
-        <MyButton/>
-      </div>
+      <MyApp/>
     </>
   )
 }
