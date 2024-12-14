@@ -12,4 +12,8 @@
 
 ### Notice how onClick={handleClick} has no parentheses at the end! Do not call the event handler function: you only need to pass it down. React will call your event handler when the user clicks the button.
 
+### You’ll get two things from useState: the current state (count), and the function that lets you update it (setCount). 
 
+### Isolated states are achieved because React treats each component instance as separate and assigns them their own internal state storage.
+### useState calls are scoped to the instance where they are used.
+### React maintains state consistency using the order of hooks and the component's position in the JSX tree.
