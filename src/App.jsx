@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css';
-import MyApp from './test';
+import Board from './TicTacToe';
 
 function App() {
   return (
     <>
-      <MyApp/>
+      <Board/>
     </>
   )
 }

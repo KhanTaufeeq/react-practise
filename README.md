@@ -17,3 +17,11 @@
 ##### Isolated states are achieved because React treats each component instance as separate and assigns them their own internal state storage.
 ##### useState calls are scoped to the instance where they are used.
 ##### React maintains state consistency using the order of hooks and the component's position in the JSX tree.
+
+##### In React, the term "lifting state up" refers to the process of moving a piece of state from a child component to its closest common parent component. This allows multiple child components to share and synchronize data more effectively.
+
+##### Why Lift State Up?
+##### Problem: When multiple components need access to the same state or need to coordinate their behavior, keeping the state within one child component makes it inaccessible to others.
+##### Solution: Move (or "lift") the state up to a common parent component so that it can be passed down as props to any child components that need it.
+
+##### To “remember” things, components use state.
